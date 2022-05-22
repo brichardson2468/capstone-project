@@ -1,0 +1,16 @@
+Cognition Tracking Portal
+
+MVP
+Doctor/Patient can sign up
+Doctor/Patient can log into site
+Patient can take exam and score/date is recorded
+Doctor can view all patients data to compare patients
+
+Stretch
+Patient can see data over time
+Doctor can view individual patient data
+Exam score is categorized based on area
+Doctor can search/filter data or patients
+Make taking quiz more dynamic / engaging
+Doctor can create appointments
+Doctor/Patient can create/edit/delete appointments
