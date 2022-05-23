@@ -19,7 +19,24 @@ Doctor.create(
 
 puts "🌱 SEEDING PATIENTS... 🌱 "
 
+10.times do
+Patient.create(
+    name: Faker::Name.name,
+    username: Faker::Color.unique.color_name,
+    DOB: Faker::Date.between(from: '1900-01-01', to: '1940-01-01'),
+    doctor_id: 1,
+    password_digest: "pass"
+)
+end
 
-
+10.times do
+Patient.create(
+    name: Faker::Name.name,
+    username: Faker::Color.unique.color_name,
+    DOB: Faker::Date.between(from: '1900-01-01', to: '1940-01-01'),
+    doctor_id: 2,
+    password_digest: "pass"
+)
+end
 
 puts "✅ DONE SEEDING! ✅ "
